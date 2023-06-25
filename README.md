@@ -12,8 +12,3 @@ MAC地址使用‘-’‘:’‘.’这3个符号进行分隔即可，当然，�
 
 长按中间按钮即可进行修改
 
-# 页面预览
-
-![主页](https://github.com/trah01/WakeOnLan_pure/blob/main/pic/main.jpg)
-
-![设置页面](https://github.com/trah01/WakeOnLan_pure/blob/main/pic/settings.jpg)
