@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="data">
+        <item >配置1</item>
+        <item >配置2</item>
+        <item >配置3</item>
+    </string-array>
+</resources>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".settings"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:text="配置"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:background="@drawable/solder"
+
+            android:textSize="20sp"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/config_ip_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/solder"
+                android:padding="10dp"
+                android:layout_marginLeft="10dp"
+                android:hint=" IP地址"
+                android:text="192.168.6.66"
+                android:freezesText="true"
+                android:maxLength="15"
+                android:singleLine="true" />
+
+            <EditText
+                android:id="@+id/config_mac_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/solder"
+                android:freezesText="true"
+                android:layout_marginTop="5dp"
+                android:padding="10dp"
+                android:layout_marginLeft="10dp"
+                android:hint=" MAC地址"
+                android:text="D8.BB.C1.9E.7B.AA"
+                android:maxLength="17"
+                android:singleLine="true"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/save"
+        android:text="保 存"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="@drawable/solder"/>
+
+
+
+</LinearLayout>
+</ScrollView>
